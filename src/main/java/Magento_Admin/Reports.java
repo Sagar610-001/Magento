@@ -19,12 +19,12 @@ public class Reports {
 
 		// ReportsMarketing
 
-		WebElement ProductCart = driver.findElement(By.id(""));
+		WebElement ProductCart = driver.findElement(By.id("menu-magento-reports-report-shopcart-product"));
 		ProductCart.click();
 
 		Thread.sleep(200);
 
-		WebElement Searchterms = driver.findElement(By.id(""));
+		WebElement Searchterms = driver.findElement(By.id("menu-magento-search-report-search-term"));
 		Searchterms.click();
 
 		Thread.sleep(200);
